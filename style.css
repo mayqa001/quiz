@@ -1,0 +1,46 @@
+.container-size{    
+    width: 500px;
+    height: 350px;
+    margin-top: 200px;
+    display: none;
+}
+
+#quiz{
+    width: 100px;
+    height: 350px;
+    margin: 20% 50% 50% 50%;
+    position: absolute;
+}
+
+#time{
+    width: 50%;
+    height: 200px;
+    margin: 20% 25% 40% 25%;
+    position: absolute;
+    text-align:center;
+    color: aquamarine;
+}
+
+.button-size{
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+.row-space{
+    margin-top: 20px;
+}
+
+#ending-section{
+    width: 500px;
+    height: 350px;
+    margin-top: 200px;
+    display: none;
+}
+.hide{
+    display: none;
+}
+
+.timeCounter{
+    display: none;
+}
