@@ -1,4 +1,4 @@
-# quiz api allow user to: 
+# quiz api: 
 
 
 a time counter before quiz start
