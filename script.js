@@ -90,6 +90,8 @@ function nextQuestion(event) {
         //when array is empty, display ending section
         if (questionArray.length === 0) {
             endingEl.style.display = "block";
+            var text = "Your final score: "+score;
+            document.getElementById("final-score").textContent = text;
             containerEl.setAttribute("style", "display:none");
             timeCounter.style.display = "none";
         } else {
@@ -103,6 +105,8 @@ function nextQuestion(event) {
                 timeCounter.textContent = milliseconds;
                 correctOrWrong.textContent = "last question was Wrong";
                 if (milliseconds <= 0) {
+					var text = "Your final score: "+score;
+					document.getElementById("final-score").textContent = text;
                     milliseconds = 0;
                     timeCounter.textContent = milliseconds;
                     clearInterval(millisecondsFunction);
@@ -118,9 +122,6 @@ function nextQuestion(event) {
     }
 }
 
-function highlighter(){
-
-}
 
 function displayScoreBoard() {
     console.log("displayScoreBoard()");
